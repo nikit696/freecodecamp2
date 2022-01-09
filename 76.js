@@ -5,7 +5,7 @@ function golfScore(par, strokes) {
 if (strokes >= par + 3){
   return "Go Home!";
 } else if (strokes == par + 2 && strokes != 1 ){
-  return "Double Bogey";
+  return "Double Bogey"; 
 } else if (strokes >= par + 1 && strokes != 1){
   return "Bogey";
 } else if (strokes == par && strokes != 1){
